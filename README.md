@@ -58,13 +58,9 @@ Sur le serveur distant, connectez-vous sur celui-ci avec la commande
 
     adb pair ipdutelephone:portpairing
 
-# Build de l'application vers votre Android
-
-    npx expo run:android
-
 # Builder localement iOS
 
-    npx expo run:ios
+    npx expo run:ios --device
 
 # Si application est déjà buildé et que npx expo est en erreur
 
